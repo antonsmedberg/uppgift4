@@ -11,6 +11,8 @@
 		E6C2DD6B2ADD2ABD008A9F57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C2DD6A2ADD2ABD008A9F57 /* ContentView.swift */; };
 		E6C2DD6D2ADD2AC0008A9F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C2DD6C2ADD2AC0008A9F57 /* Assets.xcassets */; };
 		E6C2DD702ADD2AC0008A9F57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C2DD6F2ADD2AC0008A9F57 /* Preview Assets.xcassets */; };
+		E6C2DD792ADD2B9B008A9F57 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E6C2DD782ADD2B9B008A9F57 /* MobileNetV2.mlmodel */; };
+		E6C2DD7B2ADD31C5008A9F57 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C2DD7A2ADD31C5008A9F57 /* ImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E6C2DD6A2ADD2ABD008A9F57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6C2DD6C2ADD2AC0008A9F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6C2DD6F2ADD2AC0008A9F57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6C2DD782ADD2B9B008A9F57 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		E6C2DD7A2ADD31C5008A9F57 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		E6C2DD672ADD2ABD008A9F57 /* uppgift4 */ = {
 			isa = PBXGroup;
 			children = (
+				E6C2DD7A2ADD31C5008A9F57 /* ImageModel.swift */,
+				E6C2DD782ADD2B9B008A9F57 /* MobileNetV2.mlmodel */,
 				E6C2DD682ADD2ABD008A9F57 /* uppgift4App.swift */,
 				E6C2DD6A2ADD2ABD008A9F57 /* ContentView.swift */,
 				E6C2DD6C2ADD2AC0008A9F57 /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C2DD6B2ADD2ABD008A9F57 /* ContentView.swift in Sources */,
+				E6C2DD7B2ADD31C5008A9F57 /* ImageModel.swift in Sources */,
+				E6C2DD792ADD2B9B008A9F57 /* MobileNetV2.mlmodel in Sources */,
 				E6C2DD692ADD2ABD008A9F57 /* uppgift4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
